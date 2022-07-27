@@ -7,12 +7,5 @@
         "news_html":"2022年7月27日网站测试开始",
         "news_info":"我们需要先安装",
         "news_img_url":"images/cp01.png"
-    },{
-        "news_id":2,
-        "news_name":"如何把五线谱转为简谱2",
-        "createDate":"2022-7-18",
-        "news_html":"11111",
-        "news_info":"我们需要先安装",
-        "news_img_url":"images/cp01.png"
     }]
 }
