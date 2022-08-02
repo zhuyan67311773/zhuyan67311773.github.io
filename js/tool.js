@@ -72,7 +72,6 @@ $(".tc").click(function () {
 }
 */
 if(navigator.userAgent.match(/mobile/i)) {
-
     //navigator.userAgent浏览器用于 HTTP 请求的用户代理头的值
     $(".set").hide();
     $(".h-banner-bg").hide()
@@ -92,3 +91,16 @@ if(navigator.userAgent.match(/mobile/i)) {
     $(".m-main-bg").css("padding-top","40px")
     $(".tab-div .row").css("margin-top","100px")
 }
+if(window.innerWidth<1000){
+    $(".h-banner-bg").hide()
+    $(".navbar").show()
+}
+$(window).resize(function(){
+    if(window.innerWidth<1000){
+        $(".h-banner-bg").hide()
+        $(".navbar").show()
+    }else{
+        $(".h-banner-bg").show()
+        $(".navbar").hide()
+    }
+});
