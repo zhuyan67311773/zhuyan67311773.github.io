@@ -71,8 +71,8 @@ $(".tc").click(function () {
 	margin-right: 0px;
 }
 */
-
 if(navigator.userAgent.match(/mobile/i)) {
+
     //navigator.userAgent浏览器用于 HTTP 请求的用户代理头的值
     $(".set").hide();
     $(".h-banner-bg").hide()
@@ -84,6 +84,7 @@ if(navigator.userAgent.match(/mobile/i)) {
     $(".course-box-r").css("max-width","100%").css("width","100%")
     $(".course_url").attr("width","100%").attr("height","300px")
     $(".course-title").css("height","60px").css("line-height","30px")
+
     //如果条件成立跳转百度
 }else{
     $(".h-banner-bg").show()

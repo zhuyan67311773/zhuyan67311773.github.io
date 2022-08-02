@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="修改">
+    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="移动适配修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <workItem from="1659336190674" duration="356000" />
       <workItem from="1659336603986" duration="2976000" />
       <workItem from="1659346437644" duration="10107000" />
-      <workItem from="1659405160592" duration="3701000" />
+      <workItem from="1659405160592" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659408479296</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="移动适配修改">
+      <created>1659409394259</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659409394259</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="移动适配修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动适配修改" />
   </component>
 </project>
