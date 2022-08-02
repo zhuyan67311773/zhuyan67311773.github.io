@@ -99,8 +99,10 @@ $(window).resize(function(){
     if(window.innerWidth<1000){
         $(".h-banner-bg").hide()
         $(".navbar").show()
+        $(".m-main-bg").css("padding-top","0")
     }else{
         $(".h-banner-bg").show()
         $(".navbar").hide()
+        $(".m-main-bg").css("padding-top","40px")
     }
 });
