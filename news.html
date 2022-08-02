@@ -187,7 +187,7 @@ var _hmt = _hmt || [];
 						var html = "";
 						if(json.length!=0){
 							//回显数据
-							html+='<ul class="m-bl">'
+							html+='<ul class="m-bl row">'
 							for(var i=0; i<json.length;i++){
 								html+='<li class="col-md-12"><div class="m-box">'
 									html+='<a href="newsDetails.html?id='+json[i].news_id+'">'
@@ -210,6 +210,7 @@ var _hmt = _hmt || [];
 						if(navigator.userAgent.match(/mobile/i)) {
 							$(".m-bl .m-main-new-list-box").css("height","auto")
 							$(".m-bl img").css("height","auto").css("width","100%")
+							$(".m-main-new-list img").css("margin-right","0")
 						}
 					}
 		})

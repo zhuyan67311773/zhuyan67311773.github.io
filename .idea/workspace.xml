@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="移动适配修改">
-      <change beforePath="$PROJECT_DIR$/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <workItem from="1659336190674" duration="356000" />
       <workItem from="1659336603986" duration="2976000" />
       <workItem from="1659346437644" duration="10107000" />
-      <workItem from="1659405160592" duration="4507000" />
+      <workItem from="1659405160592" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659410137416</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="移动适配修改">
+      <created>1659410183192</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659410183192</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
