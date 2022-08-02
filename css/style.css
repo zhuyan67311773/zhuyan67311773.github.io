@@ -35,15 +35,20 @@ a {
 	text-decoration: none;
 }
 
+.container-fluid{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
 .h-banner-bg {
 	background: #cee7ec url("../images/h-banner.jpg") no-repeat top center;
 	height: 389px;
 	margin: 0 auto;
-	min-width: 1200px;
+	/*min-width: 1200px;*/
 }
 
 .h-banner {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -85,7 +90,7 @@ a {
 }
 
 .m-main {
-	width: 1130px;
+	max-width: 1130px;
 	margin: 0 auto;
 }
 
@@ -104,13 +109,13 @@ a {
 	/*			overflow: hidden;*/
 }
 
-.m-main-list li {
+.m-main-list .col-md-3 .m-box{
 	border-radius: 10px;
-	width: 262px;
-	float: left;
-	margin-right: 18px;
+	max-width: 262px;
+	/*float: left;*/
+	/*margin-right: 18px;*/
 	margin-bottom: 18px;
-	height: 320px;
+	/*height: 320px;*/
 	background: #fff;
 	/*			overflow: hidden;*/
 	border: 1px solid #ccc;
@@ -118,11 +123,11 @@ a {
 	transition: 0.5s all;
 }
 
-.m-main-list li:hover {
+.m-main-list .col-md-3 .m-box:hover {
 	transform: scale(0.9)
 }
 
-.m-main-list li:nth-child(4n) {
+.m-main-list .col-md-3 .m-box:nth-child(4n) {
 	margin-right: 0px;
 }
 
@@ -266,25 +271,27 @@ a {
 .swiper-banner {
 	padding-top: 0px;
 }
-
+.m-box a:hover{
+	text-decoration: none;
+}
 /*搜索*/
 .m-main-search {
-	width: 750px;
+	max-width: 750px;
 	height: 50px;
 	background: #fff;
 	border-radius: 20px;
-	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 10px 0px;
 	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
 	position: relative;
 	margin-top: 50px;
+	margin: 0px auto;
 
 }
 
 .input-search {
 	display: block;
-	width: 650px;
+	max-width: 650px;
 	height: 100%;
 	border-radius: 20px;
 	padding: 0 50px 0 40px;
@@ -305,27 +312,27 @@ a {
 
 
 
-.tab-div ul {
-	display: flex;
+.tab-div .row {
+	/*display: flex;*/
 	height: 80px;
 	margin: 100px 0 0px 0;
 }
 
-.tab-div li {
+.tab-div .col-md-3 div{
 	font-size: 16px;
-	flex: 1;
+	/*flex: 1;*/
 	height: 70px;
 	line-height: 70px;
-	margin-right: 24px;
 	padding-left: 20px;
 	border-radius: 3px;
 	position: relative;
 	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
 	color: #666;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
-.tab-div li::after {
+.tab-div .col-md-3 div::after {
 	content: "";
 	position: absolute;
 	z-index: 1;
@@ -338,7 +345,7 @@ a {
 	background-size: 200%;
 }
 
-.tab-div li:hover::after {
+.tab-div .col-md-3 div:hover::after {
 	right: 0;
 	bottom: 0;
 	width: 90px;
@@ -350,20 +357,20 @@ a {
 /*课程详情*/
 .course-box {
 	background: #000;
-	height: 538px;
+	max-height: 538px;
 	overflow: hidden;
 	border-radius: 5px;
 }
 
 .course-box-l {
 	float: left;
-	width: 838px;
-	height: 470px;
+	max-width: 838px;
+	max-height: 470px;
 }
 
 .course-box-r {
-	width: 292px;
-	height: 538px;
+	max-width: 292px;
+	max-height: 538px;
 	background: #000;
 	float: left;
 	box-sizing: border-box;
@@ -432,4 +439,31 @@ a {
 }
 .course-nav p span{
 	font-size: 16px;
+}
+
+/*导航栏*/
+.navbar-brand{
+	padding-left: 30px !important;
+	color: #fff !important;
+}
+.navbar-toggle{
+	margin-right: 30px !important;
+}
+.navbar-default{
+	background: #c84c4a !important;
+}
+.icon-bar{
+	background-color: #fff !important;
+}
+.navbar-nav>li>a{
+	color: #fff !important;
+	font-size: 14px;
+	padding-left: 30px !important;
+}
+.navbar-nav>li{
+	background: #d35350;
+}
+.navbar-nav>li>a.active{
+	background: #743130;
+	border-bottom: none;
 }

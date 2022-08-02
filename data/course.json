@@ -5,7 +5,7 @@
             "course_id": 1,
             "course_name": "[cta4动画系列] 超简单学会制作沙雕动画",
             "course_img":"images/cp02.jpg",
-            "course_price": 199,
+            "course_price": 3,
             "course_isFree": true,
             "course_enrollment": 19,
             "course_url": "//player.bilibili.com/player.html?aid=931911769&bvid=BV1bM4y1T7TP&cid=377396496&page=1",
@@ -15,7 +15,7 @@
         },{
             "course_id": 8,
             "course_name": "[钢琴弹唱入门系列] 超简单小白弹唱秘籍",
-            "course_price": 199,
+            "course_price": 3,
             "course_img":"images/cp01.png",
             "course_isFree": true,
             "course_enrollment": 19,

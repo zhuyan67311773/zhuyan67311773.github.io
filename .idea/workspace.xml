@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/course.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/course.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloadDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloadDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsDetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/666",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/666&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -45,7 +54,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658897884056</updated>
-      <workItem from="1658897885334" duration="2553000" />
+      <workItem from="1658897885334" duration="4002000" />
+      <workItem from="1659336004821" duration="10000" />
+      <workItem from="1659336027551" duration="64000" />
+      <workItem from="1659336103251" duration="64000" />
+      <workItem from="1659336190674" duration="356000" />
+      <workItem from="1659336603986" duration="2976000" />
+      <workItem from="1659346437644" duration="10107000" />
+      <workItem from="1659405160592" duration="2812000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -82,7 +98,49 @@
       <option name="project" value="LOCAL" />
       <updated>1658900802272</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改">
+      <created>1658901206351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658901206351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改">
+      <created>1658901405964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658901405964</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改">
+      <created>1658901454640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658901454640</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改">
+      <created>1658901759504</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658901759504</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改">
+      <created>1658902122084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658902122084</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改">
+      <created>1658902297335</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658902297335</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

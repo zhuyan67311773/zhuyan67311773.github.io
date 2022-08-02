@@ -7,6 +7,9 @@
   name="description"
   content="知识迭代学院分析钢琴弹唱及动画制作为载体的个人网站,希望大家每天都学到新的知识。"
 />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="钢琴弹唱,动画制作" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <meta
   name="keywords"
   content="钢琴弹唱,动画制作"
@@ -36,12 +39,13 @@ var _hmt = _hmt || [];
 		margin-left: 15px;
 	}
 	.select-div ul{
-		overflow: hidden;
+		/*overflow: hidden;*/
+		/*height: 60px;*/
 	}
 	.select-div ul li{
 		cursor: pointer;
 		float: left;
-		height: 20px;
+		height: 40px;
 		line-height: 20px;
 		padding: 10px 20px;
 		background: #f9f9f9;
@@ -49,6 +53,7 @@ var _hmt = _hmt || [];
 		text-align: center;
 		margin-right: 20px;
 		color: #666;
+		margin-bottom: 10px;
 	}
 	.select-div ul li.active{
 		color: red;
@@ -88,7 +93,29 @@ var _hmt = _hmt || [];
 	}
 </style>
 <body>
-
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">知识迭代学院</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul  class="nav navbar-nav">
+				<li><a href="index.html" >首页</a></li>
+				<li><a href="courseList.html" class="active">课程列表</a></li>
+				<li><a href="news.html">文章资讯</a></li>
+				<li><a href="download.html">资源下载</a></li>
+				<li class="yzp-btn"><a href="#">原创谱系统</a></li>
+				<li><a href="https://www.ixigua.com/home/91655034459?list_entrance=anyVideo">更多</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
 	
 	<div class="tc">
 		<img src="images/sl.gif">
@@ -100,7 +127,7 @@ var _hmt = _hmt || [];
 	
 	</div>
 	
-	<div class="container">
+	<div class="container-fluid">
 		<div class="h-banner-bg">
 			<div class="h-banner">
 				<div class="h-logo">
@@ -271,6 +298,7 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 	<script src="data/course.json"></script>
 	<script src="js/tool.js"></script>
 	<script>
@@ -343,9 +371,9 @@ var _hmt = _hmt || [];
 							//回显数据
 							html+='<ul>'
 							for(var i=0; i<json.length;i++){
-									html+="<li t-num="+json[i].course_class+">"
+									html+="<li class='col-xs-6 col-md-3' t-num="+json[i].course_class+"> <div class='m-box'>"
 									html+="<a href=courseDetails.html?id="+json[i].course_id+"&type="+json[i].course_class+">"
-									html+='<img src="'+json[i].course_img+'" width="262" height="200">'
+									html+='<img src="'+json[i].course_img+'" width="100%" height="auto">'
 										html+='<div class="m-main-list-box">'
 											html+='<p>'+json[i].course_name+'</p>'
 												html+='<p>报名人数：'+json[i].course_enrollment+'人</p>'
@@ -356,7 +384,7 @@ var _hmt = _hmt || [];
 												}
 												html+='</div>'
 												html+="</a>"
-									html+="</li>"
+									html+="</div></li>"
 							}
 							html+='</ul>'
 

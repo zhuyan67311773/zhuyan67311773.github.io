@@ -11,9 +11,11 @@
   name="keywords"
   content="钢琴弹唱,动画制作"
 />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -36,12 +38,12 @@ var _hmt = _hmt || [];
 		margin-left: 15px;
 	}
 	.select-div ul{
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 	.select-div ul li{
 		cursor: pointer;
 		float: left;
-		height: 20px;
+		height: 40px;
 		line-height: 20px;
 		padding: 10px 20px;
 		background: #f9f9f9;
@@ -49,6 +51,7 @@ var _hmt = _hmt || [];
 		text-align: center;
 		margin-right: 20px;
 		color: #666;
+		margin-bottom: 10px;
 	}
 	.select-div ul li.active{
 		color: red;
@@ -91,6 +94,29 @@ var _hmt = _hmt || [];
 	}
 </style>
 <body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">知识迭代学院</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul  class="nav navbar-nav">
+				<li><a href="index.html" >首页</a></li>
+				<li><a href="courseList.html">课程列表</a></li>
+				<li><a href="news.html">文章资讯</a></li>
+				<li><a href="download.html" class="active">资源下载</a></li>
+				<li class="yzp-btn"><a href="#">原创谱系统</a></li>
+				<li><a href="https://www.ixigua.com/home/91655034459?list_entrance=anyVideo">更多</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
 
 	<div class="tc">
 		<img src="images/sl.gif">
@@ -102,7 +128,7 @@ var _hmt = _hmt || [];
 	
 	</div>
 	
-	<div class="container">
+	<div class="container-fluid">
 		<div class="h-banner-bg">
 			<div class="h-banner">
 				<div class="h-logo">
@@ -139,40 +165,40 @@ var _hmt = _hmt || [];
 				</div>
 				<div class="m-main-list">
 					<ul>
-						<li>
-							<a href="downloadDetails.html">
-								<img src="images/icon.png" width="262" height="225">
-								<div class="m-main-list-box">
-									<p>素材名称</p>
-									<p>下载：10人</p>
-									<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<img src="images/icon.png" width="262" height="225">
-							<div class="m-main-list-box">
-								<p>素材名称</p>
-								<p>下载：10人</p>
-								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>
-							</div>
-						</li>
-						<li>
-							<img src="images/icon.png" width="262" height="225">
-							<div class="m-main-list-box">
-								<p>素材名称</p>
-								<p>下载：10人</p>
-								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>
-							</div>
-						</li>
-						<li>
-							<img src="images/icon.png" width="262" height="225">
-							<div class="m-main-list-box">
-								<p>素材名称</p>
-								<p>下载：10人</p>
-								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>
-							</div>
-						</li>
+<!--						<li>-->
+<!--							<a href="downloadDetails.html">-->
+<!--								<img src="images/icon.png" width="262" height="225">-->
+<!--								<div class="m-main-list-box">-->
+<!--									<p>素材名称</p>-->
+<!--									<p>下载：10人</p>-->
+<!--									<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>-->
+<!--								</div>-->
+<!--							</a>-->
+<!--						</li>-->
+<!--						<li>-->
+<!--							<img src="images/icon.png" width="262" height="225">-->
+<!--							<div class="m-main-list-box">-->
+<!--								<p>素材名称</p>-->
+<!--								<p>下载：10人</p>-->
+<!--								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>-->
+<!--							</div>-->
+<!--						</li>-->
+<!--						<li>-->
+<!--							<img src="images/icon.png" width="262" height="225">-->
+<!--							<div class="m-main-list-box">-->
+<!--								<p>素材名称</p>-->
+<!--								<p>下载：10人</p>-->
+<!--								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>-->
+<!--							</div>-->
+<!--						</li>-->
+<!--						<li>-->
+<!--							<img src="images/icon.png" width="262" height="225">-->
+<!--							<div class="m-main-list-box">-->
+<!--								<p>素材名称</p>-->
+<!--								<p>下载：10人</p>-->
+<!--								<p><span class="price">限时免费</span><span class="old-price">￥199元</span></p>-->
+<!--							</div>-->
+<!--						</li>-->
 					</ul>
 				</div>
 				<div class="div-page">
@@ -196,6 +222,7 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 	<script src="data/course.json"></script>
 	<script src="js/tool.js"></script>
 	<script>
@@ -245,8 +272,8 @@ var _hmt = _hmt || [];
 							//回显数据
 							html+='<ul>'
 							for(var i=0; i<json.length;i++){
-									html+="<li t-num="+json[i].down_class+"> <a href='downloadDetails.html?id="+json[i].down_id+"'>"
-									html+='<img src="'+json[i].down_img_url+'" width="262" height="225">'
+									html+="<li class='col-xs-6 col-md-3' t-num="+json[i].down_class+"> <div class='m-box'> <a href='downloadDetails.html?id="+json[i].down_id+"'>"
+									html+='<img src="'+json[i].down_img_url+'" width="100%" height="auto">'
 										html+='<div class="m-main-list-box">'
 											html+='<p>素材名称：'+json[i].down_name+'</p>'
 												html+='<p>下载：'+json[i].down_enrollment+'人</p>'
@@ -256,7 +283,7 @@ var _hmt = _hmt || [];
 													html+='<p><span class="price">￥'+json[i].down_price+'元</span>'
 												}
 												html+='</div>'
-									html+="</a></li>"
+									html+="</div></a></li>"
 							}
 							html+='</ul>'
 

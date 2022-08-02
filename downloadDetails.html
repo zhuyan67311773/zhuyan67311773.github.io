@@ -11,6 +11,9 @@
   name="keywords"
   content="钢琴弹唱,动画制作"
 />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	
@@ -91,6 +94,30 @@ var _hmt = _hmt || [];
 	}
 </style>
 <body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">知识迭代学院</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul  class="nav navbar-nav">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="courseList.html">课程列表</a></li>
+				<li><a href="news.html">文章资讯</a></li>
+				<li><a href="download.html">资源下载</a></li>
+				<li class="yzp-btn"><a href="#">原创谱系统</a></li>
+				<li><a href="https://www.ixigua.com/home/91655034459?list_entrance=anyVideo">更多</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
 
 	<div class="tc">
 		<img src="images/sl.gif">
@@ -102,7 +129,7 @@ var _hmt = _hmt || [];
 	
 	</div>
 	
-	<div class="container">
+	<div class="container-fluid">
 		<div class="h-banner-bg">
 			<div class="h-banner">
 				<div class="h-logo">
@@ -123,7 +150,7 @@ var _hmt = _hmt || [];
 		<div class="m-main-bg">
 			<div class="m-main">
 				<div class="course-nav">
-					<p>资源列表 > 素材名称：<span class="wzny-txt"></span></p>
+					<p style="padding-left: 10px;">资源列表 > 素材名称：<span class="wzny-txt"></span></p>
 				</div>
 				<div class="m-main-title">资源下载</div>
 <!--				<div class="line"></div>-->
@@ -131,7 +158,7 @@ var _hmt = _hmt || [];
 				<div class="m-main-con">
 					<ul>
 						<li style="overflow: hidden">
-							<img class="down_img_url" src="images/icon.png" width="262" height="225" style="float: left;">
+							<img class="down_img_url" src="images/icon.png" width="262" height="auto" style="float: left;">
 							<div class="m-main-list-box" style="float: left; padding-top: 20px;">
 								<p>素材名称：<span class="down_name"></span></p>
 								<p>下载大小：<span class="down_size"></span></p>
@@ -151,7 +178,7 @@ var _hmt = _hmt || [];
 							padding: 20px;
 						}
 						.download-img img{
-							width: 500px;
+							max-width: 300px;
 							margin-bottom: 10px;
 						}
 						.download-box{
@@ -190,6 +217,7 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 	<script src="data/course.json"></script>
 	<script src="js/tool.js"></script>
 	<script>

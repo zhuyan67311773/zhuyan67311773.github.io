@@ -71,3 +71,23 @@ $(".tc").click(function () {
 	margin-right: 0px;
 }
 */
+
+if(navigator.userAgent.match(/mobile/i)) {
+    //navigator.userAgent浏览器用于 HTTP 请求的用户代理头的值
+    $(".set").hide();
+    $(".h-banner-bg").hide()
+    $(".navbar").show()
+    $(".m-main-bg").css("padding-top","0")
+    $("body").css("background-color","#fff")
+    $(".tab-div .row").css("margin-top","30px")
+    $(".course-box-l").css("float","none")
+    $(".course-box-r").css("max-width","100%").css("width","100%")
+    $(".course_url").attr("width","100%").attr("height","300px")
+    $(".course-title").css("height","60px").css("line-height","30px")
+    //如果条件成立跳转百度
+}else{
+    $(".h-banner-bg").show()
+    $(".navbar").hide()
+    $(".m-main-bg").css("padding-top","40px")
+    $(".tab-div .row").css("margin-top","100px")
+}
