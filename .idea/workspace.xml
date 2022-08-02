@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/courseList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/course.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/course.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloadDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloadDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/news.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
       <workItem from="1659336190674" duration="356000" />
       <workItem from="1659336603986" duration="2976000" />
       <workItem from="1659346437644" duration="10107000" />
-      <workItem from="1659405160592" duration="2812000" />
+      <workItem from="1659405160592" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -140,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658902297335</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改">
+      <created>1659408479296</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659408479296</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
