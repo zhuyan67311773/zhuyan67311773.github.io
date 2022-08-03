@@ -4,26 +4,26 @@
         "down_id":1,
         "down_name":"动物角色01",
         "createDate":"2022-7-18",
-        "down_img_url":"images/icon.png",
+        "down_img_url":"http://mainbao.gitee.io/knowledge-iteration-college/images/icon.png",
         "down_price": 1,
         "down_isFree": true,
         "down_enrollment": "3.52M",
         "down_class": 2,
         "down_url": "https://baidu.com",
         "down_size": "1M",
-        "down_info_imgs":["images/01.jpeg"]
+        "down_info_imgs":["https://zsdd.site/images/01.jpeg"]
     },
     {
         "down_id":2,
         "down_name":"动画特效01",
         "createDate":"2022-7-18",
-        "down_img_url":"images/icon.png",
+        "down_img_url":"http://mainbao.gitee.io/knowledge-iteration-college/images/icon.png",
         "down_price": 1,
         "down_isFree": true,
         "down_enrollment": "21.2",
         "down_class": 5,
         "down_url": "https://baidu.com",
         "down_size": "1M",
-        "down_info_imgs":["images/01.jpeg","images/02.jpeg"]
+        "down_info_imgs":["https://zsdd.site/images/01.jpeg","https://zsdd.site/images/02.jpeg"]
     }]
 }
