@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="移动适配修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloadDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloadDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="重构vue版本上线" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +53,7 @@
       <workItem from="1659405160592" duration="6969000" />
       <workItem from="1659415532075" duration="610000" />
       <workItem from="1659495566949" duration="8820000" />
-      <workItem from="1659527217136" duration="7875000" />
+      <workItem from="1659527217136" duration="8184000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -185,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659412208070</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="重构vue版本上线">
+      <created>1659535919313</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659535919313</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
     <MESSAGE value="移动适配修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动适配修改" />
+    <MESSAGE value="重构vue版本上线" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构vue版本上线" />
   </component>
 </project>
