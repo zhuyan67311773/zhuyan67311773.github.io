@@ -21,5 +21,12 @@
         "news_html":"2022年8月4日一期重构，网站改用vue单页应用，响应式页面迭代了版本",
         "news_info":"网站数据也会慢慢的更新进去，大家耐心等待",
         "news_img_url":"https://zsdd.site/images/sx-icon3.png"
+    },{
+        "news_id":4,
+        "news_name":"2022年8月5日二期官网后台页面制作完成",
+        "createDate":"2022-8-5",
+        "news_html":"2022年8月5日二期官网后台页面制作完成",
+        "news_info":"网站数据也会慢慢的更新进去，大家耐心等待",
+        "news_img_url":"https://zsdd.site/images/sx-icon4.png"
     }]
 }
