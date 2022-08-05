@@ -60,6 +60,8 @@
       <workItem from="1659539313016" duration="228000" />
       <workItem from="1659587246589" duration="226000" />
       <workItem from="1659590163626" duration="660000" />
+      <workItem from="1659615232269" duration="608000" />
+      <workItem from="1659711593604" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -236,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659590210445</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="重构vue版本上线">
+      <created>1659615250041</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659615250042</updated>
+    </task>
+    <task id="LOCAL-00027" summary="重构vue版本上线">
+      <created>1659711630250</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659711630250</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
