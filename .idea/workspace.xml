@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="重构vue版本上线">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="重构vue版本上线" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +64,7 @@
       <workItem from="1659872114459" duration="502000" />
       <workItem from="1659884294519" duration="206000" />
       <workItem from="1659933255035" duration="56000" />
+      <workItem from="1659934571112" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -270,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659872144855</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="重构vue版本上线">
+      <created>1659934579010</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659934579010</updated>
+    </task>
+    <task id="LOCAL-00031" summary="重构vue版本上线">
+      <created>1659934809888</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659934809888</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
