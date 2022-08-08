@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="重构vue版本上线" />
+    <list default="true" id="3cc7ac87-c404-4fd2-8f72-6f010f079f62" name="变更" comment="重构vue版本上线">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +28,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/web&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/zsdd-server-pc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,6 +63,9 @@
       <workItem from="1659615232269" duration="608000" />
       <workItem from="1659711593604" duration="61000" />
       <workItem from="1659711838297" duration="33000" />
+      <workItem from="1659872114459" duration="502000" />
+      <workItem from="1659884294519" duration="206000" />
+      <workItem from="1659933255035" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1658897944208</created>
@@ -258,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659711863559</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="重构vue版本上线">
+      <created>1659872144855</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659872144855</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
